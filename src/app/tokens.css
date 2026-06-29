@@ -1,0 +1,316 @@
+/**
+ * Design tokens — Mobile (<640px) mặc định, Tablet (640–1024px), Web (>1024px).
+ * Chỉnh kích cỡ tổng thể: sửa --fs-base và/hoặc các nhóm token bên dưới.
+ */
+:root {
+  /* ── Root scale (ảnh hưởng mọi rem) ── */
+  --fs-base: 16px;
+
+  /* ── Typography ── */
+  --text-title: 1.1875rem;
+  --text-subtitle: 1.0625rem;
+  --text-content: 0.9375rem;
+  --text-small: 0.875rem;
+  --text-caption: 0.8125rem;
+  --text-label: 0.6875rem;
+  --text-micro: 0.625rem;
+  --text-stat: 1.25rem;
+  --text-modal-title: 1.1875rem;
+  --text-card-title: 0.875rem;
+  --text-card-sub: 0.75rem;
+  --text-vital-label: 0.625rem;
+  --text-vital-value: 0.875rem;
+  --text-btn: 0.875rem;
+  --text-form: 0.875rem;
+  --text-form-label: 0.8125rem;
+
+  /* ── Line height ── */
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  /* ── Spacing ── */
+  --space-2xs: 0.125rem;
+  --space-xs: 0.25rem;
+  --space-sm: 0.375rem;
+  --space-md: 0.5rem;
+  --space-lg: 0.75rem;
+  --space-xl: 1rem;
+  --space-2xl: 1.25rem;
+  --space-3xl: 1.5rem;
+  --space-card: 0.5rem;
+  --space-card-lg: 0.625rem;
+  --space-section: 0.5rem;
+  --space-main-x: 0.75rem;
+  --space-main-y: 0.75rem;
+  --space-sidebar: 1rem;
+  --space-modal-body: 1.25rem;
+  --space-modal-header-x: 1.25rem;
+  --space-modal-header-y: 1rem;
+
+  /* ── Icons ── */
+  --icon-2xs: 10px;
+  --icon-vital: 9px;
+  --icon-xs: 11px;
+  --icon-sm: 12px;
+  --icon-md: 14px;
+  --icon-lg: 16px;
+  --icon-xl: 18px;
+  --icon-2xl: 20px;
+  --icon-fab: 24px;
+  --icon-spinner: 40px;
+  --icon-spinner-sm: 12px;
+
+  /* ── Border radius ── */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-3xl: 24px;
+  --radius-pill: 999px;
+  --radius-header: 16px;
+  --radius-filter: 16px;
+
+  /* ── Avatars & badges ── */
+  --avatar-xs: 32px;
+  --avatar-sm: 36px;
+  --avatar-md: 40px;
+  --avatar-lg: 44px;
+  --avatar-drawer: 48px;
+  --avatar-modal: 44px;
+  --avatar-elder: 36px;
+  --badge-font: 0.625rem;
+  --badge-font-sm: 0.5625rem;
+  --badge-pad-y: 0.125rem;
+  --badge-pad-x: 0.4rem;
+  --tag-font: 0.6875rem;
+  --tag-pad-y: 0.2rem;
+  --tag-pad-x: 0.5rem;
+
+  /* ── Layout ── */
+  --sidebar-width: 0px;
+  --header-height: 56px;
+  --header-logo-h: 36px;
+  --bottom-nav-height: 68px;
+  --drawer-max-width: 100%;
+  --modal-max-width: 100%;
+  --grid-gap: 0.5rem;
+  --grid-row-height: 140px;
+  --card-inner-gap: 0.25rem;
+  --detail-label-col: 100px;
+  --progress-height: 6px;
+  --popover-width: min(300px, calc(100vw - 2rem));
+  --fab-size: 52px;
+  --pagination-btn: 2rem;
+  --vital-cell-min-h: 2.125rem;
+
+  /* ── Component sizing ── */
+  --btn-pad-y: 0.65rem;
+  --btn-pad-x: 1.25rem;
+  --btn-action-pad-y: 0.5rem;
+  --btn-action-pad-x: 0.375rem;
+  --input-pad-y: 0.65rem;
+  --input-pad-x: 0.875rem;
+  --filter-pad-y: 0.25rem;
+  --filter-pad-x: 0.125rem;
+  --stat-pad-y: 0.5rem;
+  --stat-pad-x: 0.25rem;
+  --signature-height: 130px;
+  --voice-viz-height: 72px;
+  --transcript-min-h: 110px;
+  --dropdown-max-h: 240px;
+}
+
+/* Tablet: 640px – 1023px */
+@media (min-width: 640px) {
+  :root {
+    --fs-base: 17px;
+
+    --text-title: 1.3125rem;
+    --text-subtitle: 1.125rem;
+    --text-content: 1rem;
+    --text-small: 0.9375rem;
+    --text-caption: 0.875rem;
+    --text-label: 0.75rem;
+    --text-micro: 0.6875rem;
+    --text-stat: 1.4375rem;
+    --text-modal-title: 1.25rem;
+    --text-card-title: 0.9375rem;
+    --text-card-sub: 0.8125rem;
+    --text-vital-label: 0.6875rem;
+    --text-vital-value: 0.9375rem;
+    --text-btn: 0.9375rem;
+    --text-form: 0.9375rem;
+    --text-form-label: 0.875rem;
+
+    --space-card: 0.625rem;
+    --space-card-lg: 0.75rem;
+    --space-section: 0.625rem;
+    --space-main-x: 1rem;
+    --space-main-y: 1rem;
+    --space-sidebar: 1.125rem;
+    --space-modal-body: 1.375rem;
+    --space-modal-header-x: 1.375rem;
+    --space-modal-header-y: 1.125rem;
+
+    --icon-2xs: 11px;
+    --icon-vital: 10px;
+    --icon-xs: 12px;
+    --icon-sm: 13px;
+    --icon-md: 15px;
+    --icon-lg: 17px;
+    --icon-xl: 20px;
+    --icon-2xl: 22px;
+    --icon-fab: 26px;
+    --icon-spinner: 44px;
+
+    --radius-header: 18px;
+    --radius-filter: 18px;
+
+    --avatar-xs: 34px;
+    --avatar-sm: 38px;
+    --avatar-md: 42px;
+    --avatar-lg: 46px;
+    --avatar-drawer: 52px;
+    --avatar-modal: 48px;
+    --avatar-elder: 40px;
+    --badge-font: 0.6875rem;
+    --badge-font-sm: 0.625rem;
+    --tag-font: 0.75rem;
+
+    --header-height: 64px;
+    --header-logo-h: 44px;
+    --drawer-max-width: 480px;
+    --modal-max-width: 520px;
+    --grid-gap: 0.625rem;
+    --grid-row-height: 154px;
+    --card-inner-gap: 0.3rem;
+    --detail-label-col: 115px;
+    --progress-height: 7px;
+    --fab-size: 56px;
+    --pagination-btn: 2.125rem;
+    --vital-cell-min-h: 2.375rem;
+
+    --btn-pad-y: 0.7rem;
+    --btn-pad-x: 1.375rem;
+    --btn-action-pad-y: 0.55rem;
+    --btn-action-pad-x: 0.5rem;
+    --input-pad-y: 0.7rem;
+    --input-pad-x: 1rem;
+    --filter-pad-y: 0.3rem;
+    --filter-pad-x: 0.25rem;
+    --stat-pad-y: 0.55rem;
+    --stat-pad-x: 0.375rem;
+    --signature-height: 140px;
+    --voice-viz-height: 76px;
+    --transcript-min-h: 115px;
+    --dropdown-max-h: 260px;
+  }
+}
+
+/* Web: ≥ 1024px */
+@media (min-width: 1024px) {
+  :root {
+    --fs-base: 18px;
+
+    --text-title: 1.5625rem;
+    --text-subtitle: 1.1875rem;
+    --text-content: 1.0625rem;
+    --text-small: 0.9375rem;
+    --text-caption: 0.875rem;
+    --text-label: 0.75rem;
+    --text-micro: 0.6875rem;
+    --text-stat: 1.625rem;
+    --text-modal-title: 1.375rem;
+    --text-card-title: 1.0625rem;
+    --text-card-sub: 0.875rem;
+    --text-vital-label: 0.75rem;
+    --text-vital-value: 1rem;
+    --text-btn: 1rem;
+    --text-form: 0.9375rem;
+    --text-form-label: 0.875rem;
+
+    --space-card: 0.625rem;
+    --space-card-lg: 0.75rem;
+    --space-section: 0.75rem;
+    --space-main-x: 1.5rem;
+    --space-main-y: 1.25rem;
+    --space-sidebar: 1.25rem;
+    --space-modal-body: 1.5rem;
+    --space-modal-header-x: 1.5rem;
+    --space-modal-header-y: 1.25rem;
+
+    --icon-2xs: 13px;
+    --icon-vital: 11px;
+    --icon-xs: 14px;
+    --icon-sm: 15px;
+    --icon-md: 17px;
+    --icon-lg: 19px;
+    --icon-xl: 22px;
+    --icon-2xl: 24px;
+    --icon-fab: 28px;
+    --icon-spinner: 48px;
+
+    --radius-header: 20px;
+    --radius-filter: 20px;
+
+    --avatar-xs: 36px;
+    --avatar-sm: 40px;
+    --avatar-md: 44px;
+    --avatar-lg: 48px;
+    --avatar-drawer: 56px;
+    --avatar-modal: 52px;
+    --avatar-elder: 44px;
+    --badge-font: 0.6875rem;
+    --badge-font-sm: 0.625rem;
+    --tag-font: 0.75rem;
+
+    --sidebar-width: 320px;
+    --header-height: 72px;
+    --header-logo-h: 52px;
+    --drawer-max-width: 560px;
+    --modal-max-width: 580px;
+    --grid-gap: 0.75rem;
+    --grid-row-height: 168px;
+    --card-inner-gap: 0.35rem;
+    --detail-label-col: 130px;
+    --progress-height: 8px;
+    --popover-width: 340px;
+    --fab-size: 60px;
+    --pagination-btn: 2.25rem;
+    --vital-cell-min-h: 2.625rem;
+
+    --btn-pad-y: 0.8rem;
+    --btn-pad-x: 1.5rem;
+    --btn-action-pad-y: 0.65rem;
+    --btn-action-pad-x: 0.625rem;
+    --input-pad-y: 0.75rem;
+    --input-pad-x: 1rem;
+    --filter-pad-y: 0.375rem;
+    --filter-pad-x: 0.375rem;
+    --stat-pad-y: 0.625rem;
+    --stat-pad-x: 0.5rem;
+    --signature-height: 150px;
+    --voice-viz-height: 80px;
+    --transcript-min-h: 120px;
+    --dropdown-max-h: 280px;
+  }
+}
+
+/* Icon utility — dùng thay size={n} trên lucide-react */
+.icon {
+  flex-shrink: 0;
+}
+.icon-2xs { width: var(--icon-2xs); height: var(--icon-2xs); }
+.icon-vital { width: var(--icon-vital); height: var(--icon-vital); }
+.icon-xs  { width: var(--icon-xs);  height: var(--icon-xs);  }
+.icon-sm  { width: var(--icon-sm);  height: var(--icon-sm);  }
+.icon-md  { width: var(--icon-md);  height: var(--icon-md);  }
+.icon-lg  { width: var(--icon-lg);  height: var(--icon-lg);  }
+.icon-xl  { width: var(--icon-xl);  height: var(--icon-xl);  }
+.icon-2xl { width: var(--icon-2xl); height: var(--icon-2xl); }
+.icon-fab { width: var(--icon-fab); height: var(--icon-fab); }
+.icon-spinner { width: var(--icon-spinner); height: var(--icon-spinner); }

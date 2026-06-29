@@ -1,0 +1,1705 @@
+{
+  "facilityName": "Dưỡng Lão Bình Mỹ",
+  "caregivers": [
+    {
+      "id": "cg-01",
+      "name": "Nguyễn Thị Mai",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "facility": "Dưỡng Lão Bình Mỹ",
+      "area": "Khu A",
+      "shift": "Sáng",
+      "phone": "0901.234.567"
+    },
+    {
+      "id": "cg-02",
+      "name": "Trần Văn Hùng",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150",
+      "facility": "Dưỡng Lão Bình Mỹ",
+      "area": "Khu B",
+      "shift": "Chiều",
+      "phone": "0902.345.678"
+    },
+    {
+      "id": "cg-03",
+      "name": "Lê Mỹ Linh",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150",
+      "facility": "Dưỡng Lão Bình Mỹ",
+      "area": "Khu A",
+      "shift": "Đêm",
+      "phone": "0903.456.789"
+    }
+  ],
+  "elders": [
+    {
+      "id": "elder-101",
+      "caregiverId": "cg-01",
+      "name": "Trần Thị Bính",
+      "age": 78,
+      "gender": "Nữ",
+      "dateOfBirth": "15/03/1948",
+      "address": "Khu A, Tòa A, Phòng 101",
+      "emergencyContact": "Con gái - 0912.345.678",
+      "height": 156,
+      "weight": 52,
+      "chronicDiseases": ["Tăng huyết áp"],
+      "room": "Phòng 101",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=101",
+      "status": "need_attention",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-101-sv-1",
+          "time": "08:10",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "132/86",
+          "pulse": 82,
+          "spo2": 96,
+          "temp": 36.9,
+          "respiration": 19,
+          "bloodSugar": 108,
+          "note": "Đo đầu ca, cụ than mệt nhẹ."
+        },
+        {
+          "id": "elder-101-sv-2",
+          "time": "15:30",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "138/90",
+          "pulse": 96,
+          "spo2": 94,
+          "temp": 37.7,
+          "respiration": 22,
+          "bloodSugar": 112,
+          "note": "Sốt nhẹ, ho, chán ăn; đã lau mát và cho uống thuốc ho thảo dược."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-101-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "142/92",
+          "pulse": 90,
+          "spo2": 95,
+          "temp": 37.6,
+          "observation": "Đêm ngủ chập chờn, huyết áp nhích cao kèm sốt nhẹ.",
+          "handoverAction": "Theo dõi sát nhiệt độ và huyết áp, báo bác sĩ nếu sốt tăng."
+        },
+        {
+          "id": "elder-101-sh-2",
+          "daysAgo": 2,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "128/82",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Cảm quan ổn định, ăn hết suất chiều.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        },
+        {
+          "id": "elder-101-sh-3",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "130/84",
+          "pulse": 80,
+          "spo2": 97,
+          "temp": 36.7,
+          "observation": "Uống thuốc hạ áp đúng giờ, tinh thần ổn.",
+          "handoverAction": "Duy trì chế độ ăn ít muối."
+        },
+        {
+          "id": "elder-101-sh-4",
+          "daysAgo": 5,
+          "shift": "Ca chiều",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "126/80",
+          "pulse": 76,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Sinh hoạt bình thường, đi lại nhẹ nhàng.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-101-vr-1",
+          "daysAgo": 6,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Huyết áp 142/92, cần điều chỉnh liều thuốc.",
+          "treatment": "Tăng liều thuốc hạ áp, đo lại sau 1 tuần."
+        },
+        {
+          "id": "elder-101-vr-2",
+          "daysAgo": 34,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Huyết áp kiểm soát khá, tim nhịp đều.",
+          "treatment": "Tiếp tục điều trị nội khoa theo đơn."
+        },
+        {
+          "id": "elder-101-vr-3",
+          "daysAgo": 70,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Kiểm soát chế độ ăn, tập thể dục nhẹ."
+        }
+      ],
+      "todayVisits": [
+        {
+          "id": "elder-101-tvr-1",
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Sốt nhẹ do viêm hô hấp trên, huyết áp 138/90.",
+          "treatment": "Kháng sinh đường uống, theo dõi nhiệt độ mỗi 2 tiếng."
+        }
+      ]
+    },
+    {
+      "id": "elder-102",
+      "caregiverId": "cg-01",
+      "name": "Nguyễn Văn An",
+      "age": 80,
+      "gender": "Nam",
+      "dateOfBirth": "10/06/1946",
+      "address": "Khu A, Tòa A, Phòng 101",
+      "emergencyContact": "Con trai - 0913.111.222",
+      "height": 168,
+      "weight": 60,
+      "chronicDiseases": [],
+      "room": "Phòng 101",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=102",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-102-sv-1",
+          "time": "08:25",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "120/80",
+          "pulse": 72,
+          "spo2": 97,
+          "temp": 36.5,
+          "respiration": 18,
+          "note": "Đo định kỳ trong ca, cụ vui vẻ hợp tác."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-102-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "118/78",
+          "pulse": 70,
+          "spo2": 98,
+          "temp": 36.4,
+          "observation": "Ngủ sâu, không thức giấc.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        },
+        {
+          "id": "elder-102-sh-2",
+          "daysAgo": 2,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "122/80",
+          "pulse": 74,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Ăn uống tốt, tinh thần vui vẻ.",
+          "handoverAction": "Theo dõi chế độ ăn ít muối như thường lệ."
+        },
+        {
+          "id": "elder-102-sh-3",
+          "daysAgo": 4,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "124/82",
+          "pulse": 76,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Đi dạo sân vườn 20 phút.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-102-vr-1",
+          "daysAgo": 20,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Tiếp tục theo dõi định kỳ."
+        },
+        {
+          "id": "elder-102-vr-2",
+          "daysAgo": 90,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Tim mạch ổn, nhịp đều.",
+          "treatment": "Kiểm soát chế độ ăn, tập thể dục nhẹ."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-103",
+      "caregiverId": "cg-01",
+      "name": "Hoàng Văn Dũng",
+      "age": 75,
+      "gender": "Nam",
+      "dateOfBirth": "22/09/1951",
+      "address": "Khu A, Tòa A, Phòng 103",
+      "emergencyContact": "Con trai - 0914.333.444",
+      "height": 165,
+      "weight": 64,
+      "chronicDiseases": ["Tăng huyết áp"],
+      "room": "Phòng 103",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=103",
+      "status": "need_attention",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-103-sv-1",
+          "time": "09:15",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "148/96",
+          "pulse": 88,
+          "spo2": 94,
+          "temp": 36.8,
+          "respiration": 22,
+          "bloodSugar": 102,
+          "note": "Huyết áp cao, cụ kêu đau đầu nhẹ; đã báo bác sĩ và cho uống thuốc hạ áp."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-103-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "138/88",
+          "pulse": 82,
+          "spo2": 96,
+          "temp": 36.7,
+          "observation": "Huyết áp nhích nhẹ cuối ngày, không đau đầu.",
+          "handoverAction": "Ca sau theo dõi sát huyết áp."
+        },
+        {
+          "id": "elder-103-sh-2",
+          "daysAgo": 2,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "150/98",
+          "pulse": 90,
+          "spo2": 95,
+          "temp": 36.6,
+          "observation": "Huyết áp cao buổi sáng, đã cho uống thuốc.",
+          "handoverAction": "Báo bác sĩ nếu huyết áp vẫn trên 140."
+        },
+        {
+          "id": "elder-103-sh-3",
+          "daysAgo": 4,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "132/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Đêm ngủ ổn, không kêu khó chịu.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        },
+        {
+          "id": "elder-103-sh-4",
+          "daysAgo": 6,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "128/82",
+          "pulse": 76,
+          "spo2": 98,
+          "temp": 36.6,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Duy trì chế độ ăn ít muối."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-103-vr-1",
+          "daysAgo": 3,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Huyết áp 150/98, đau đầu vùng chẩm.",
+          "treatment": "Điều chỉnh thuốc hạ áp, tái khám sau 2 tuần."
+        },
+        {
+          "id": "elder-103-vr-2",
+          "daysAgo": 45,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Huyết áp hơi cao, cần theo dõi thêm.",
+          "treatment": "Uống thuốc hạ áp, đo lại sau 1 tuần."
+        },
+        {
+          "id": "elder-103-vr-3",
+          "daysAgo": 110,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Phổi trong, không ran.",
+          "treatment": "Tiếp tục điều trị nội khoa theo đơn."
+        }
+      ],
+      "todayVisits": [
+        {
+          "id": "elder-103-tvr-1",
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Cơn tăng huyết áp, huyết áp 148/96.",
+          "treatment": "Uống thuốc hạ áp lúc 9:15, theo dõi sát, báo lại nếu trên 140."
+        }
+      ]
+    },
+    {
+      "id": "elder-104",
+      "caregiverId": "cg-01",
+      "name": "Lê Thị Hoa",
+      "age": 82,
+      "gender": "Nữ",
+      "dateOfBirth": "05/12/1944",
+      "address": "Khu A, Tòa A, Phòng 103",
+      "emergencyContact": "Con gái - 0915.555.666",
+      "height": 152,
+      "weight": 48,
+      "chronicDiseases": ["Loãng xương", "Viêm khớp"],
+      "room": "Phòng 103",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=104",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-104-sv-1",
+          "time": "08:40",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "126/80",
+          "pulse": 74,
+          "spo2": 97,
+          "temp": 36.5,
+          "respiration": 18,
+          "note": "Khớp gối đỡ đau hơn hôm qua, đi lại nhẹ nhàng."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-104-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "150/94",
+          "pulse": 92,
+          "spo2": 95,
+          "temp": 37.5,
+          "observation": "Đêm đau khớp nhiều, huyết áp tăng do đau.",
+          "handoverAction": "Chườm ấm, theo dõi và báo bác sĩ nếu đau tăng."
+        },
+        {
+          "id": "elder-104-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "124/80",
+          "pulse": 76,
+          "spo2": 98,
+          "temp": 36.6,
+          "observation": "Cảm quan ổn định, tập vật lý trị liệu nhẹ.",
+          "handoverAction": "Duy trì lịch vật lý trị liệu."
+        },
+        {
+          "id": "elder-104-sh-3",
+          "daysAgo": 5,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "122/78",
+          "pulse": 74,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Sinh hoạt bình thường.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-104-vr-1",
+          "daysAgo": 12,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Khớp gối sưng nhẹ, mật độ xương thấp.",
+          "treatment": "Vật lý trị liệu 3 buổi/tuần, bổ sung canxi và vitamin D."
+        },
+        {
+          "id": "elder-104-vr-2",
+          "daysAgo": 60,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Thiếu máu nhẹ, bổ sung dinh dưỡng.",
+          "treatment": "Bổ sung vitamin và khoáng chất."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-105",
+      "caregiverId": "cg-01",
+      "name": "Phạm Văn Bình",
+      "age": 73,
+      "gender": "Nam",
+      "dateOfBirth": "18/02/1953",
+      "address": "Khu A, Tòa A, Phòng 105",
+      "emergencyContact": "Con trai - 0916.777.888",
+      "height": 167,
+      "weight": 66,
+      "chronicDiseases": ["Tiểu đường type 2"],
+      "room": "Phòng 105",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=105",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-105-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "126/82",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Đường huyết sau ăn 9.1 mmol/L, ổn định.",
+          "handoverAction": "Theo dõi đường huyết hàng ngày."
+        },
+        {
+          "id": "elder-105-sh-2",
+          "daysAgo": 2,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "124/80",
+          "pulse": 76,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Ăn kiêng tốt, tinh thần ổn.",
+          "handoverAction": "Duy trì chế độ ăn cho người tiểu đường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-105-vr-1",
+          "daysAgo": 15,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Đường huyết đói 7.2 mmol/L, trong giới hạn cho phép.",
+          "treatment": "Theo dõi đường huyết hàng ngày, ăn kiêng."
+        },
+        {
+          "id": "elder-105-vr-2",
+          "daysAgo": 75,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Tiếp tục theo dõi định kỳ."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-106",
+      "caregiverId": "cg-01",
+      "name": "Nguyễn Thị Lan",
+      "age": 77,
+      "gender": "Nữ",
+      "dateOfBirth": "30/07/1949",
+      "address": "Khu A, Tòa A, Phòng 105",
+      "emergencyContact": "Con gái - 0917.999.000",
+      "height": 154,
+      "weight": 50,
+      "chronicDiseases": ["Tăng huyết áp", "Suy tim nhẹ"],
+      "room": "Phòng 105",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=106",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-106-sv-1",
+          "time": "08:50",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "134/86",
+          "pulse": 80,
+          "spo2": 96,
+          "temp": 36.6,
+          "respiration": 19,
+          "note": "Không phù chân, thở đều, sinh hoạt ổn."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-106-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "136/86",
+          "pulse": 82,
+          "spo2": 96,
+          "temp": 36.5,
+          "observation": "Ngủ ổn, không khó thở về đêm.",
+          "handoverAction": "Theo dõi dấu hiệu phù và khó thở."
+        },
+        {
+          "id": "elder-106-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "132/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Hạn chế muối, theo dõi cân nặng."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-106-vr-1",
+          "daysAgo": 18,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Tim nhịp đều, phù nhẹ chân buổi chiều.",
+          "treatment": "Tiếp tục điều trị nội khoa, hạn chế muối."
+        },
+        {
+          "id": "elder-106-vr-2",
+          "daysAgo": 80,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Huyết áp kiểm soát ổn.",
+          "treatment": "Uống thuốc hạ áp đều đặn."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-107",
+      "caregiverId": "cg-01",
+      "name": "Trần Văn Cường",
+      "age": 85,
+      "gender": "Nam",
+      "dateOfBirth": "12/11/1941",
+      "address": "Khu A, Tòa A, Phòng 107",
+      "emergencyContact": "Con trai - 0918.222.333",
+      "height": 163,
+      "weight": 58,
+      "chronicDiseases": [],
+      "room": "Phòng 107",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=107",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-107-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "158/100",
+          "pulse": 104,
+          "spo2": 93,
+          "temp": 37.6,
+          "observation": "Đêm sốt nhẹ kèm huyết áp cao, mệt mỏi.",
+          "handoverAction": "Đã lau mát, báo ca trưởng; ca sau theo dõi sát."
+        },
+        {
+          "id": "elder-107-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "126/80",
+          "pulse": 76,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định, ăn uống bình thường.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-107-vr-1",
+          "daysAgo": 2,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Viêm hô hấp trên, đã hạ sốt.",
+          "treatment": "Uống thuốc theo đơn, theo dõi thêm 3 ngày."
+        },
+        {
+          "id": "elder-107-vr-2",
+          "daysAgo": 95,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Tiếp tục theo dõi định kỳ."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-108",
+      "caregiverId": "cg-01",
+      "name": "Võ Thị Ngọc",
+      "age": 79,
+      "gender": "Nữ",
+      "dateOfBirth": "08/04/1947",
+      "address": "Khu A, Tòa A, Phòng 107",
+      "emergencyContact": "Con gái - 0919.444.555",
+      "height": 150,
+      "weight": 47,
+      "chronicDiseases": ["Hen suyễn"],
+      "room": "Phòng 107",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=108",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-108-sh-1",
+          "daysAgo": 2,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "120/78",
+          "pulse": 74,
+          "spo2": 96,
+          "temp": 36.5,
+          "observation": "Thở đều, không lên cơn hen.",
+          "handoverAction": "Duy trì thuốc xịt dự phòng."
+        },
+        {
+          "id": "elder-108-sh-2",
+          "daysAgo": 4,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "122/80",
+          "pulse": 76,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Sinh hoạt bình thường.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-108-vr-1",
+          "daysAgo": 25,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Phổi thông khí tốt, không ran.",
+          "treatment": "Duy trì thuốc xịt dự phòng."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-201",
+      "caregiverId": "cg-02",
+      "name": "Đặng Văn Hải",
+      "age": 81,
+      "gender": "Nam",
+      "dateOfBirth": "03/05/1945",
+      "address": "Khu B, Tòa B, Phòng 201",
+      "emergencyContact": "Con trai - 0921.111.222",
+      "height": 166,
+      "weight": 63,
+      "chronicDiseases": ["Tăng huyết áp"],
+      "room": "Phòng 201",
+      "bed": "Giường 01",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=201",
+      "status": "need_attention",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-201-sv-1",
+          "time": "14:20",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "140/90",
+          "pulse": 86,
+          "spo2": 95,
+          "temp": 36.8,
+          "respiration": 20,
+          "note": "Đo đầu ca chiều, huyết áp ranh giới cao."
+        },
+        {
+          "id": "elder-201-sv-2",
+          "time": "17:45",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "165/104",
+          "pulse": 102,
+          "spo2": 93,
+          "temp": 37.0,
+          "respiration": 23,
+          "note": "Cơn tăng huyết áp, chóng mặt; đã báo bác sĩ trực ngay."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-201-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "152/96",
+          "pulse": 94,
+          "spo2": 95,
+          "temp": 36.7,
+          "observation": "Huyết áp cao cuối ca, đã cho uống thuốc.",
+          "handoverAction": "Theo dõi sát huyết áp, báo bác sĩ nếu trên 160."
+        },
+        {
+          "id": "elder-201-sh-2",
+          "daysAgo": 2,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "134/86",
+          "pulse": 80,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Buổi sáng ổn định.",
+          "handoverAction": "Duy trì chế độ ăn ít muối."
+        },
+        {
+          "id": "elder-201-sh-3",
+          "daysAgo": 4,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "130/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Đêm ngủ ổn.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-201-vr-1",
+          "daysAgo": 5,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Tăng huyết áp chưa kiểm soát tốt, 152/96.",
+          "treatment": "Phối hợp thêm thuốc hạ áp, tái khám sau 1 tuần."
+        },
+        {
+          "id": "elder-201-vr-2",
+          "daysAgo": 50,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Huyết áp hơi cao, cần theo dõi thêm.",
+          "treatment": "Uống thuốc hạ áp, đo lại sau 1 tuần."
+        }
+      ],
+      "todayVisits": [
+        {
+          "id": "elder-201-tvr-1",
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Cơn tăng huyết áp cấp 165/104.",
+          "treatment": "Tiêm thuốc hạ áp, theo dõi sát mỗi 30 phút."
+        }
+      ]
+    },
+    {
+      "id": "elder-202",
+      "caregiverId": "cg-02",
+      "name": "Bùi Thị Mận",
+      "age": 76,
+      "gender": "Nữ",
+      "dateOfBirth": "14/08/1950",
+      "address": "Khu B, Tòa B, Phòng 201",
+      "emergencyContact": "Con gái - 0922.333.444",
+      "height": 153,
+      "weight": 54,
+      "chronicDiseases": ["Tiểu đường type 2"],
+      "room": "Phòng 201",
+      "bed": "Giường 02",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=202",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-202-sv-1",
+          "time": "14:30",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "124/80",
+          "pulse": 76,
+          "spo2": 97,
+          "temp": 36.5,
+          "respiration": 18,
+          "bloodSugar": 138,
+          "note": "Đường huyết sau ăn ổn, ăn kiêng tốt."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-202-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "122/78",
+          "pulse": 74,
+          "spo2": 98,
+          "temp": 36.6,
+          "observation": "Đường huyết đói 6.8 mmol/L.",
+          "handoverAction": "Theo dõi đường huyết hàng ngày."
+        },
+        {
+          "id": "elder-202-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "126/82",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Duy trì chế độ ăn cho người tiểu đường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-202-vr-1",
+          "daysAgo": 22,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Đường huyết trong giới hạn cho phép.",
+          "treatment": "Theo dõi đường huyết hàng ngày."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-203",
+      "caregiverId": "cg-02",
+      "name": "Đỗ Văn Nam",
+      "age": 74,
+      "gender": "Nam",
+      "dateOfBirth": "27/01/1952",
+      "address": "Khu B, Tòa B, Phòng 203",
+      "emergencyContact": "Con trai - 0923.555.666",
+      "height": 170,
+      "weight": 68,
+      "chronicDiseases": [],
+      "room": "Phòng 203",
+      "bed": "Giường 01",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=203",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-203-sv-1",
+          "time": "15:00",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "120/78",
+          "pulse": 72,
+          "spo2": 98,
+          "temp": 36.5,
+          "respiration": 17,
+          "note": "Sức khỏe tốt, tham gia hoạt động nhóm."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-203-sh-1",
+          "daysAgo": 2,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "118/76",
+          "pulse": 70,
+          "spo2": 98,
+          "temp": 36.4,
+          "observation": "Đi bộ 30 phút, tinh thần tốt.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-203-vr-1",
+          "daysAgo": 40,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Tiếp tục theo dõi định kỳ."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-204",
+      "caregiverId": "cg-02",
+      "name": "Phan Thị Phương",
+      "age": 83,
+      "gender": "Nữ",
+      "dateOfBirth": "19/10/1943",
+      "address": "Khu B, Tòa B, Phòng 203",
+      "emergencyContact": "Con gái - 0924.777.888",
+      "height": 151,
+      "weight": 46,
+      "chronicDiseases": ["Viêm khớp", "Loãng xương"],
+      "room": "Phòng 203",
+      "bed": "Giường 02",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=204",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-204-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "124/80",
+          "pulse": 76,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Khớp đau nhẹ buổi sáng, chiều đỡ.",
+          "handoverAction": "Duy trì lịch vật lý trị liệu."
+        },
+        {
+          "id": "elder-204-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "122/78",
+          "pulse": 74,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-204-vr-1",
+          "daysAgo": 16,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Khớp gối sưng nhẹ, cần vật lý trị liệu.",
+          "treatment": "Vật lý trị liệu 3 buổi/tuần."
+        },
+        {
+          "id": "elder-204-vr-2",
+          "daysAgo": 85,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Mật độ xương thấp.",
+          "treatment": "Bổ sung canxi và vitamin D."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-205",
+      "caregiverId": "cg-02",
+      "name": "Hoàng Văn Sơn",
+      "age": 78,
+      "gender": "Nam",
+      "dateOfBirth": "07/03/1948",
+      "address": "Khu B, Tòa B, Phòng 205",
+      "emergencyContact": "Con trai - 0925.999.000",
+      "height": 164,
+      "weight": 61,
+      "chronicDiseases": ["Suy tim nhẹ"],
+      "room": "Phòng 205",
+      "bed": "Giường 01",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=205",
+      "status": "need_attention",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-205-sv-1",
+          "time": "16:10",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "128/84",
+          "pulse": 98,
+          "spo2": 91,
+          "temp": 36.9,
+          "respiration": 24,
+          "note": "Khó thở khi gắng sức, SpO2 giảm; cho thở oxy gọng kính, báo bác sĩ."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-205-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "130/86",
+          "pulse": 90,
+          "spo2": 94,
+          "temp": 36.7,
+          "observation": "Đêm khó thở nhẹ khi nằm, kê cao gối.",
+          "handoverAction": "Theo dõi SpO2 và dấu hiệu khó thở."
+        },
+        {
+          "id": "elder-205-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "126/82",
+          "pulse": 84,
+          "spo2": 96,
+          "temp": 36.6,
+          "observation": "Sinh hoạt nhẹ nhàng, không phù.",
+          "handoverAction": "Hạn chế muối, nghỉ ngơi."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-205-vr-1",
+          "daysAgo": 4,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Suy tim, SpO2 dao động 91-94%, phù nhẹ chân.",
+          "treatment": "Tiếp tục điều trị nội khoa, thở oxy khi cần, hạn chế muối."
+        },
+        {
+          "id": "elder-205-vr-2",
+          "daysAgo": 65,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Tim nhịp đều, chức năng tim giảm nhẹ.",
+          "treatment": "Theo dõi sát, tái khám sau 2 tuần."
+        }
+      ],
+      "todayVisits": [
+        {
+          "id": "elder-205-tvr-1",
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Đợt khó thở, SpO2 91%.",
+          "treatment": "Thở oxy 2 lít/phút, theo dõi SpO2 liên tục."
+        }
+      ]
+    },
+    {
+      "id": "elder-206",
+      "caregiverId": "cg-02",
+      "name": "Nguyễn Thị Kim",
+      "age": 80,
+      "gender": "Nữ",
+      "dateOfBirth": "23/06/1946",
+      "address": "Khu B, Tòa B, Phòng 205",
+      "emergencyContact": "Con gái - 0926.222.333",
+      "height": 152,
+      "weight": 49,
+      "chronicDiseases": ["Tăng huyết áp"],
+      "room": "Phòng 205",
+      "bed": "Giường 02",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=206",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-206-sv-1",
+          "time": "15:20",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "132/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.6,
+          "respiration": 18,
+          "note": "Huyết áp ổn sau khi uống thuốc."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-206-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "156/98",
+          "pulse": 92,
+          "spo2": 95,
+          "temp": 36.8,
+          "observation": "Đêm huyết áp tăng cao, kèm hồi hộp.",
+          "handoverAction": "Đã cho uống thuốc, báo ca trưởng; ca sau theo dõi sát."
+        },
+        {
+          "id": "elder-206-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "130/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Duy trì chế độ ăn ít muối."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-206-vr-1",
+          "daysAgo": 10,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Huyết áp dao động, có cơn tăng về đêm.",
+          "treatment": "Điều chỉnh giờ uống thuốc, tái khám sau 1 tuần."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-207",
+      "caregiverId": "cg-02",
+      "name": "Trần Thị Thu",
+      "age": 72,
+      "gender": "Nữ",
+      "dateOfBirth": "11/09/1954",
+      "address": "Khu B, Tòa B, Phòng 207",
+      "emergencyContact": "Con gái - 0927.444.555",
+      "height": 155,
+      "weight": 53,
+      "chronicDiseases": [],
+      "room": "Phòng 207",
+      "bed": "Giường 01",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=207",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-207-sh-1",
+          "daysAgo": 2,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "118/76",
+          "pulse": 72,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Sức khỏe tốt, tham gia đọc sách.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-207-vr-1",
+          "daysAgo": 55,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Tiếp tục theo dõi định kỳ."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-208",
+      "caregiverId": "cg-02",
+      "name": "Lê Văn Lâm",
+      "age": 86,
+      "gender": "Nam",
+      "dateOfBirth": "02/02/1940",
+      "address": "Khu B, Tòa B, Phòng 207",
+      "emergencyContact": "Con trai - 0928.666.777",
+      "height": 162,
+      "weight": 57,
+      "chronicDiseases": ["Tiểu đường type 2", "Tăng huyết áp"],
+      "room": "Phòng 207",
+      "bed": "Giường 02",
+      "area": "Khu B",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=208",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-208-sv-1",
+          "time": "14:50",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "136/86",
+          "pulse": 80,
+          "spo2": 96,
+          "temp": 36.6,
+          "respiration": 18,
+          "bloodSugar": 145,
+          "note": "Đường huyết và huyết áp trong ngưỡng theo dõi."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-208-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca sáng",
+          "recordedBy": "Phạm Thu Hà",
+          "bp": "138/88",
+          "pulse": 82,
+          "spo2": 96,
+          "temp": 36.6,
+          "observation": "Đường huyết đói 7.5 mmol/L, huyết áp ranh giới.",
+          "handoverAction": "Theo dõi đường huyết và huyết áp."
+        },
+        {
+          "id": "elder-208-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "132/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Duy trì chế độ ăn kiêng và ít muối."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-208-vr-1",
+          "daysAgo": 14,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Đường huyết và huyết áp kiểm soát khá.",
+          "treatment": "Tiếp tục điều trị nội khoa theo đơn."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-301",
+      "caregiverId": "cg-03",
+      "name": "Phạm Thị Hồng",
+      "age": 84,
+      "gender": "Nữ",
+      "dateOfBirth": "16/12/1942",
+      "address": "Khu A, Tòa C, Phòng 301",
+      "emergencyContact": "Con gái - 0931.111.222",
+      "height": 150,
+      "weight": 45,
+      "chronicDiseases": ["Tăng huyết áp"],
+      "room": "Phòng 301",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=301",
+      "status": "need_attention",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-301-sv-1",
+          "time": "22:30",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "150/95",
+          "pulse": 94,
+          "spo2": 94,
+          "temp": 36.9,
+          "respiration": 21,
+          "note": "Đêm huyết áp cao, khó ngủ; đã cho uống thuốc và theo dõi."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-301-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "134/86",
+          "pulse": 80,
+          "spo2": 97,
+          "temp": 36.6,
+          "observation": "Buổi sáng huyết áp ổn.",
+          "handoverAction": "Duy trì chế độ ăn ít muối."
+        },
+        {
+          "id": "elder-301-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "146/92",
+          "pulse": 88,
+          "spo2": 95,
+          "temp": 36.7,
+          "observation": "Đêm huyết áp nhích cao.",
+          "handoverAction": "Theo dõi sát huyết áp về đêm."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-301-vr-1",
+          "daysAgo": 8,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Tăng huyết áp về đêm, 146/92.",
+          "treatment": "Điều chỉnh thuốc, đo huyết áp 2 lần/ngày."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-302",
+      "caregiverId": "cg-03",
+      "name": "Nguyễn Văn Khang",
+      "age": 77,
+      "gender": "Nam",
+      "dateOfBirth": "29/04/1949",
+      "address": "Khu A, Tòa C, Phòng 301",
+      "emergencyContact": "Con trai - 0932.333.444",
+      "height": 169,
+      "weight": 67,
+      "chronicDiseases": [],
+      "room": "Phòng 301",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=302",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-302-sv-1",
+          "time": "21:40",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "122/80",
+          "pulse": 72,
+          "spo2": 98,
+          "temp": 36.5,
+          "respiration": 17,
+          "note": "Trước khi ngủ, chỉ số ổn định."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-302-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "120/78",
+          "pulse": 70,
+          "spo2": 98,
+          "temp": 36.4,
+          "observation": "Ngủ sâu, không thức giấc.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-302-vr-1",
+          "daysAgo": 48,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Sức khỏe ổn định, không phát hiện bất thường.",
+          "treatment": "Tiếp tục theo dõi định kỳ."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-303",
+      "caregiverId": "cg-03",
+      "name": "Võ Thị Vy",
+      "age": 73,
+      "gender": "Nữ",
+      "dateOfBirth": "06/07/1953",
+      "address": "Khu A, Tòa C, Phòng 303",
+      "emergencyContact": "Con gái - 0933.555.666",
+      "height": 154,
+      "weight": 51,
+      "chronicDiseases": ["Hen suyễn"],
+      "room": "Phòng 303",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=303",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-303-sh-1",
+          "daysAgo": 2,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "120/78",
+          "pulse": 74,
+          "spo2": 96,
+          "temp": 36.5,
+          "observation": "Thở đều, không lên cơn hen về đêm.",
+          "handoverAction": "Duy trì thuốc xịt dự phòng."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-303-vr-1",
+          "daysAgo": 30,
+          "doctor": "BS. Trần Thị Lan",
+          "result": "Phổi thông khí tốt, không ran.",
+          "treatment": "Duy trì thuốc xịt dự phòng."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-304",
+      "caregiverId": "cg-03",
+      "name": "Trần Văn Uy",
+      "age": 82,
+      "gender": "Nam",
+      "dateOfBirth": "21/11/1944",
+      "address": "Khu A, Tòa C, Phòng 303",
+      "emergencyContact": "Con trai - 0934.777.888",
+      "height": 161,
+      "weight": 56,
+      "chronicDiseases": ["Suy tim nhẹ"],
+      "room": "Phòng 303",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=304",
+      "status": "need_attention",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-304-sv-1",
+          "time": "23:15",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "134/88",
+          "pulse": 116,
+          "spo2": 93,
+          "temp": 37.1,
+          "respiration": 24,
+          "note": "Đêm hồi hộp, nhịp tim nhanh; đã báo bác sĩ trực và theo dõi sát."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-304-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "128/84",
+          "pulse": 96,
+          "spo2": 95,
+          "temp": 36.8,
+          "observation": "Nhịp tim hơi nhanh cuối chiều.",
+          "handoverAction": "Theo dõi nhịp tim và SpO2."
+        },
+        {
+          "id": "elder-304-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "126/82",
+          "pulse": 84,
+          "spo2": 96,
+          "temp": 36.6,
+          "observation": "Đêm ổn, ngủ được.",
+          "handoverAction": "Hạn chế muối, nghỉ ngơi."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-304-vr-1",
+          "daysAgo": 5,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Rối loạn nhịp tim trên nền suy tim nhẹ.",
+          "treatment": "Điều chỉnh thuốc, theo dõi nhịp tim sát."
+        }
+      ],
+      "todayVisits": [
+        {
+          "id": "elder-304-tvr-1",
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Cơn nhịp nhanh, mạch 116.",
+          "treatment": "Cho thuốc theo y lệnh, theo dõi điện tim."
+        }
+      ]
+    },
+    {
+      "id": "elder-305",
+      "caregiverId": "cg-03",
+      "name": "Đỗ Thị Giang",
+      "age": 79,
+      "gender": "Nữ",
+      "dateOfBirth": "13/05/1947",
+      "address": "Khu A, Tòa C, Phòng 305",
+      "emergencyContact": "Con gái - 0935.999.000",
+      "height": 153,
+      "weight": 52,
+      "chronicDiseases": ["Tiểu đường type 2"],
+      "room": "Phòng 305",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=305",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-305-sv-1",
+          "time": "22:00",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "124/80",
+          "pulse": 76,
+          "spo2": 97,
+          "temp": 36.5,
+          "respiration": 18,
+          "bloodSugar": 132,
+          "note": "Đường huyết tối ổn định."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-305-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "122/78",
+          "pulse": 74,
+          "spo2": 98,
+          "temp": 36.4,
+          "observation": "Ngủ ổn, không hạ đường huyết về đêm.",
+          "handoverAction": "Theo dõi đường huyết hàng ngày."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-305-vr-1",
+          "daysAgo": 26,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Đường huyết trong giới hạn cho phép.",
+          "treatment": "Theo dõi đường huyết hàng ngày, ăn kiêng."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-306",
+      "caregiverId": "cg-03",
+      "name": "Bùi Văn Tuấn",
+      "age": 75,
+      "gender": "Nam",
+      "dateOfBirth": "09/08/1951",
+      "address": "Khu A, Tòa C, Phòng 305",
+      "emergencyContact": "Con trai - 0936.222.333",
+      "height": 168,
+      "weight": 65,
+      "chronicDiseases": [],
+      "room": "Phòng 305",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=306",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-306-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca chiều",
+          "recordedBy": "Trần Văn Hùng",
+          "bp": "150/96",
+          "pulse": 100,
+          "spo2": 94,
+          "temp": 37.8,
+          "observation": "Chiều sốt nhẹ kèm huyết áp tăng, mệt mỏi.",
+          "handoverAction": "Đã lau mát, báo ca trưởng; ca sau theo dõi sát nhiệt độ."
+        },
+        {
+          "id": "elder-306-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "122/80",
+          "pulse": 74,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định, ngủ tốt.",
+          "handoverAction": "Theo dõi sinh hoạt thông thường."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-306-vr-1",
+          "daysAgo": 2,
+          "doctor": "BS. Lê Hoàng Nam",
+          "result": "Viêm hô hấp trên, đã hạ sốt.",
+          "treatment": "Uống thuốc theo đơn, theo dõi thêm 3 ngày."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-307",
+      "caregiverId": "cg-03",
+      "name": "Lê Thị Chi",
+      "age": 81,
+      "gender": "Nữ",
+      "dateOfBirth": "25/01/1945",
+      "address": "Khu A, Tòa C, Phòng 307",
+      "emergencyContact": "Con gái - 0937.444.555",
+      "height": 151,
+      "weight": 48,
+      "chronicDiseases": ["Viêm khớp"],
+      "room": "Phòng 307",
+      "bed": "Giường 01",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&sig=307",
+      "status": "logged",
+      "shiftVitalRecords": [
+        {
+          "id": "elder-307-sv-1",
+          "time": "21:20",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "126/82",
+          "pulse": 76,
+          "spo2": 97,
+          "temp": 36.6,
+          "respiration": 18,
+          "note": "Khớp đỡ đau, đi lại nhẹ nhàng."
+        }
+      ],
+      "shiftHistory": [
+        {
+          "id": "elder-307-sh-1",
+          "daysAgo": 2,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "124/80",
+          "pulse": 74,
+          "spo2": 98,
+          "temp": 36.5,
+          "observation": "Đêm ngủ ổn, ít đau khớp.",
+          "handoverAction": "Duy trì lịch vật lý trị liệu."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-307-vr-1",
+          "daysAgo": 20,
+          "doctor": "BS. Phạm Quốc Bảo",
+          "result": "Khớp gối sưng nhẹ, cần vật lý trị liệu.",
+          "treatment": "Vật lý trị liệu 3 buổi/tuần."
+        }
+      ],
+      "todayVisits": []
+    },
+    {
+      "id": "elder-308",
+      "caregiverId": "cg-03",
+      "name": "Phan Văn Đức",
+      "age": 88,
+      "gender": "Nam",
+      "dateOfBirth": "04/03/1938",
+      "address": "Khu A, Tòa C, Phòng 307",
+      "emergencyContact": "Con trai - 0938.666.777",
+      "height": 160,
+      "weight": 54,
+      "chronicDiseases": ["Tăng huyết áp", "Loãng xương"],
+      "room": "Phòng 307",
+      "bed": "Giường 02",
+      "area": "Khu A",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&sig=308",
+      "status": "stable",
+      "shiftVitalRecords": [],
+      "shiftHistory": [
+        {
+          "id": "elder-308-sh-1",
+          "daysAgo": 1,
+          "shift": "Ca đêm",
+          "recordedBy": "Lê Mỹ Linh",
+          "bp": "138/88",
+          "pulse": 80,
+          "spo2": 96,
+          "temp": 36.6,
+          "observation": "Huyết áp ranh giới, sinh hoạt chậm do tuổi cao.",
+          "handoverAction": "Hỗ trợ đi lại, theo dõi huyết áp."
+        },
+        {
+          "id": "elder-308-sh-2",
+          "daysAgo": 3,
+          "shift": "Ca sáng",
+          "recordedBy": "Nguyễn Thị Mai",
+          "bp": "132/84",
+          "pulse": 78,
+          "spo2": 97,
+          "temp": 36.5,
+          "observation": "Cảm quan ổn định.",
+          "handoverAction": "Duy trì chế độ ăn ít muối."
+        }
+      ],
+      "visitHistory": [
+        {
+          "id": "elder-308-vr-1",
+          "daysAgo": 28,
+          "doctor": "BS. Nguyễn Văn Khánh",
+          "result": "Huyết áp kiểm soát khá, mật độ xương thấp.",
+          "treatment": "Uống thuốc hạ áp đều, bổ sung canxi và vitamin D."
+        }
+      ],
+      "todayVisits": []
+    }
+  ]
+}
