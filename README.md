@@ -573,6 +573,16 @@ Mở trình duyệt tại `http://localhost:3000`.
 
 ---
 
+## Deploy (GitHub Pages)
+
+Demo trực tuyến: **https://MTri2411.github.io/sobanggiaoca_demo/**
+
+Mỗi lần push lên nhánh `main`, GitHub Actions tự build và deploy (workflow `.github/workflows/deploy.yml`).
+
+Build tĩnh dùng `output: 'export'`; khi deploy lên GitHub Pages, `basePath` được bật qua biến môi trường `GITHUB_PAGES=true`.
+
+---
+
 ## Ghi chú triển khai
 
 - **Prototype frontend:** chưa có API/backend; persistence chỉ trên trình duyệt.
@@ -580,7 +590,6 @@ Mở trình duyệt tại `http://localhost:3000`.
 - **Đa thiết bị:** layout responsive — sidebar desktop, bottom nav + drawer trên mobile.
 - **Hydration:** drawer và form chỉ reset sau khi mở (`client-only` patterns) để tránh lệch SSR.
 
-- 
 ## Tài liệu liên quan trong code
 
 | Chủ đề | File |
